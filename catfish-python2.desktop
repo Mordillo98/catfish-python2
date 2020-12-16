@@ -1,0 +1,15 @@
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Type=Application
+Name=Catfish
+Comment=File search
+Comment[de]=Dateisuche
+Comment[es]=Buscador de archivos
+Comment[fi]=Etsi tiedostoja
+Comment[fr]=Recherche de fichiers
+Categories=GTK;Utility;Filesystem;
+Exec=catfish-python2
+Icon=catfish-python2
+Terminal=false
+StartupNotify=true

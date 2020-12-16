@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+
+APPNAME=catfish-python2
+APPNAME_LINK=catfish
+
+if [ -e $APPNAME.pyc ]
+    then python2 $APPNAME.pyc "$@" --path=/uisr/share/$APPNAME_LINK
+    else
+        if [ -e $APPNAME.py ]
+            then python2 $APPNAME.py "$@" --path=/usr/share/$APPNAME_LINK
+            else
+                cd %prefix%/share/$APPNAME
+                python2 $APPNAME.pyc "$@" --path=/usr/share/$APPNAME_LINK
+        fi
+    fi
