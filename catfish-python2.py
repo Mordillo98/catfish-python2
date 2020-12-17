@@ -140,7 +140,7 @@ class catfish:
         else:
             # Unknown desktop? Just see what we have then
             # Guess suitable fileman
-            commands = ['Nautilus', 'Thunar', 'konqueror']
+            commands = ['Nautilus', 'Thunar', 'konqueror', 'pcmanfm']
             default_fileman = ''
             for path in os.environ.get('PATH', '/usr/bin').split(os.pathsep):
                 for command in commands:

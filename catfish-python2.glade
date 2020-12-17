@@ -7,7 +7,7 @@
     <property name="title">catfish</property>
     <property name="default_width">720</property>
     <property name="default_height">500</property>
-    <property name="icon">catfish.svg</property>
+    <property name="icon">catfish-python2.svg</property>
     <signal name="destroy" handler="on_window_search_destroy"/>
     <child>
       <widget class="GtkVBox" id="vbox_layout">
